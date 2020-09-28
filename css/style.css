@@ -1,0 +1,22 @@
+/*!
+Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Pirata+One&display=swap');
+
+
+/* Modify the backgorund color */ 
+
+body {
+    font-family: 'Oswald', sans-serif;
+    padding-top: 56px;
+    background-color: #fec;
+  }
+  a,
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-weight: bold;
+    font-family: 'Pirata One', cursive;
+  }

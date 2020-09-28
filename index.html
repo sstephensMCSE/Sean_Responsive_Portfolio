@@ -1,23 +1,131 @@
 <!-- validated with https://validator.w3.org/ -->
+<!-- Unit 02 CSS and Bootstrap Homework: Responsive Portfolio -->
+<!-- https://sstephensmcse.github.io/Sean_Responsive_Portfolio/ -->
 <!doctype html>
 <html lang="en">
-  <head>
+
+
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
 
-    <title>Hello, world!</title>
+
+    <!-- Title -->
+    <title>Unit 02 CSS and Bootstrap Homework: Responsive Portfolio</title>
   </head>
-  <body>
-    <h1>Hello, world!</h1>
+
+    <body> 
+
+    <!-- Navigation wrap with container to align the menus -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Pirate Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#about">About the Captain</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Destinations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Report a Mutiny</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- Page Content -->
+    <div class="container" >
+
+      <!-- Heading Row -->
+      <div class="row align-items-center my-5">
+        <div class="col-lg-7">
+          <img class="img-fluid rounded mb-4 mb-lg-0" src="./images/head.jpg" alt="Jack Sparrow" id=about>
+        </div>
+        <!-- /.col-lg-8 -->
+        <div class="col-lg-5">
+          <h1 class="font-weight-light">Captain Jack Sparrow</h1>
+          <p>Jack Sparrow was a legendary pirate of the Seven Seas, and the irreverent trickster of the Caribbean. A captain of equally dubious morality and sobriety, a master of self-promotion and self-interest, Jack fought a constant and losing battle with his own best tendencies. Jack's first love was the sea, his second, his beloved ship the Black Pearl.</p>
+          <a class="btn btn-primary" href="#">Report a Mutiny</a>
+        </div>
+        <!-- /.col-md-4 -->
+      </div>
+      <!-- /.row -->
+
+      <!-- fluid container -->
+      <div class="container-fluid">
+        <div class="alert alert-dark" role="alert">
+          <h1> Quotes </h1>
+          <h4 class="alert-heading">On Stowaways:</h4>
+          <i>"Look, I'm not a crook. This crummy sack here―and what's in it―is all I have. I would have brought more, but storage space for stowaways is very limited."</i>
+          <hr/>
+          <h4 class="alert-heading">On Love:</h4>
+          <i>"if you choose to lock yor heart away, you'll lose it for certian"</i>
+          <hr/>
+          <h4 class="alert-heading">On Mental Health:</h4>
+          <i>"Crazy people don't know they're crazy. I know I'm crazy, therefore I'm not crazy, isn't that crazy?"</i>
+
+        </div>
+    
+
+      <!-- Content Row -->
+      <div class="row">
+        <div class="col-md-6 mb-5">
+          <div class="card h-100">
+            <div class="card-body">
+              <h2 class="card-title">Destinations</h2>
+              <p class="card-text">Popular destinations for pirating and spending quality time with other crewmembers. </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary btn-sm">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <!-- /.col-md-4 -->
+        <div class="col-md-6 mb-5">
+          <div class="card h-100">
+            <div class="card-body">
+              <h2 class="card-title">Report a Mutiny</h2>
+              <p class="card-text"> Mutiny is serious and costly. Avoid being on the wrong side of the plank! Rat out your fellow crewmembers and earn valuable rewards</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary btn-sm">Report Now!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Unit 02 CSS and Bootstrap Homework: Responsive Portfolio</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="./jquery/jquery.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
   </body>
 </html>
