@@ -18,9 +18,9 @@
 
     <!-- Title -->
     <title>Unit 02 CSS and Bootstrap Homework: Responsive Portfolio</title>
-  </head>
+</head>
 
-    <body> 
+<body> 
 
     <!-- Navigation wrap with container to align the menus -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -32,11 +32,23 @@
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="./index.html">About the Captain</a>
+                <a class="nav-link" href="./index.html#about">About the Captain</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./portfolio.html">Destinations</a>
-              </li>
+            </li>
+  
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Destinations
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="./portfolio.html#island1">Island 1</a>
+                <a class="dropdown-item" href="./portfolio.html#island2">Island 2</a>
+                <a class="dropdown-item" href="./portfolio.html#island3">Island 3</a>
+                <a class="dropdown-item" href="./portfolio.html#island4">Island 4</a>
+                <a class="dropdown-item" href="./portfolio.html#island5">Island 5</a>
+                <a class="dropdown-item" href="./portfolio.html#island6">Island 6</a>
+              </div>
+            </li>
               <li class="nav-item active">
                 <a class="nav-link" href="./contact.html">Report a Mutiny</a>
               </li>
@@ -102,12 +114,12 @@
             </div>
         </div>
     </div>
+
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
         <p class="m-0 text-center text-white">Unit 02 CSS and Bootstrap Homework: Responsive Portfolio</p>
       </div>
-      <!-- /.container -->
     </footer>
 
 

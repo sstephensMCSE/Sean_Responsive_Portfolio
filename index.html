@@ -6,7 +6,7 @@
 
 
 
-<head>
+  <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -20,7 +20,7 @@
     <title>Unit 02 CSS and Bootstrap Homework: Responsive Portfolio</title>
   </head>
 
-    <body> 
+  <body> 
 
     <!-- Navigation wrap with container to align the menus -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -32,11 +32,23 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#about">About the Captain</a>
+              <a class="nav-link" href="./index.html#about">About the Captain</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./portfolio.html">Destinations</a>
-            </li>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Destinations
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="./portfolio.html#island1">Island 1</a>
+              <a class="dropdown-item" href="./portfolio.html#island2">Island 2</a>
+              <a class="dropdown-item" href="./portfolio.html#island3">Island 3</a>
+              <a class="dropdown-item" href="./portfolio.html#island4">Island 4</a>
+              <a class="dropdown-item" href="./portfolio.html#island5">Island 5</a>
+              <a class="dropdown-item" href="./portfolio.html#island6">Island 6</a>
+            </div>
+          </li>
             <li class="nav-item">
               <a class="nav-link" href="./contact.html">Report a Mutiny</a>
             </li>
@@ -45,26 +57,22 @@
       </div>
     </nav>
 
-
     <!-- Page Content -->
     <div class="container" >
 
-      <!-- Heading Row -->
+      <!-- About Me -->
       <div class="row align-items-center my-5">
         <div class="col-lg-7">
           <img class="img-fluid rounded mb-4 mb-lg-0" src="./images/head.jpg" alt="Jack Sparrow" id=about>
-        </div>
-        <!-- /.col-lg-8 -->
+        </div>        
         <div class="col-lg-5">
           <h1 class="font-weight-light">Captain Jack Sparrow</h1>
           <p>Jack Sparrow was a legendary pirate of the Seven Seas, and the irreverent trickster of the Caribbean. A captain of equally dubious morality and sobriety, a master of self-promotion and self-interest, Jack fought a constant and losing battle with his own best tendencies. Jack's first love was the sea, his second, his beloved ship the Black Pearl.</p>
           <a class="btn btn-primary" href="./contact.html">Report a Mutiny</a>
-        </div>
-        <!-- /.col-md-4 -->
-      </div>
-      <!-- /.row -->
+        </div>        
+      </div>      
 
-      <!-- fluid container -->
+      <!-- fluid container for Quotes -->
       <div class="container-fluid">
         <div class="alert alert-dark" role="alert">
           <h1> Quotes </h1>
@@ -80,7 +88,7 @@
         </div>
     
 
-      <!-- Content Row -->
+      <!-- Portfolio Card -->
       <div class="row">
         <div class="col-md-6 mb-5">
           <div class="card h-100">
@@ -93,7 +101,8 @@
             </div>
           </div>
         </div>
-        <!-- /.col-md-4 -->
+
+        <!-- Contact Card -->
         <div class="col-md-6 mb-5">
           <div class="card h-100">
             <div class="card-body">
@@ -105,11 +114,10 @@
             </div>
           </div>
         </div>
-      </div>
-      <!-- /.row -->
+      </div>      
 
     </div>
-    <!-- /.container -->
+    
 
 
     <!-- Footer -->
@@ -117,7 +125,6 @@
       <div class="container">
         <p class="m-0 text-center text-white">Unit 02 CSS and Bootstrap Homework: Responsive Portfolio</p>
       </div>
-      <!-- /.container -->
     </footer>
 
 
